@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="GBK"?>
+<conditions>
+	<condition queryType="25184">
+		<item>
+			<name>name</name>
+			<value>张三</value>
+		</item>
+		<item>
+			<name>documentNo</name>
+			<value>430521199202176866</value>
+		</item>
+		<item>
+			<name>applyMoney</name>
+			<value>10000</value>
+		</item>
+		<item>
+			<name>applyPeriod</name>
+			<value>5</value>
+		</item>
+		<item>
+			<name>returnAmountBank</name>
+			<value></value>
+		</item>
+		<item>
+			<name>returnAmountLoan</name>
+			<value></value>
+		</item>
+		<item>
+			<name>contact</name>
+			<value></value>
+		</item>
+		<item>
+			<name>emersencyContact</name>
+			<value></value>
+		</item>
+		
+
+		<item>
+			<name>startTime</name>
+			<value>2011</value>
+		</item>
+		<item>
+			<name>degree</name>
+			<value>本科</value>
+		</item>
+		<item>
+			<name>college</name>
+			<value>上海***学</value>
+		</item>
+		
+
+		<item>		
+			<name>subreportIDs</name>
+			
+			<value>12904</value>
+		</item>
+		<item>
+			<name>refID</name>
+			<value>1</value>
+		</item>
+	</condition>
+</conditions>

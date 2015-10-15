@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="GBK"?>
+<conditions>
+	<!-- 接口1查询条件：根据姓名证件号码查询个人风险信息。本文档所有内容均区分大小写 -->
+	<condition queryType="25136">
+		
+		<item>
+			<name>name</name>
+			<value>李良*</value>
+		</item>
+		<item>
+			<name>documentNo</name>
+           		<value>310***********</value>
+		</item>	
+		<item>
+			<name>subreportIDs</name>
+			<value>11301</value>
+		</item>
+
+		<item>
+			<name>refID</name>			
+			<value>1</value>
+		</item>
+	</condition>
+</conditions>

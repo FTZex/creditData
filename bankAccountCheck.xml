@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="GBK"?>
+<conditions>
+	<!-- 每一个查询一个condition节点。本文档所有内容均区分大小写，请注意。 -->
+	<condition queryType="25173">
+		<!-- 查询个人银行账户核查信息，姓名、银行账户都不能为空，为存折时开户行行号必填 -->
+		<item>
+			<name>name</name>
+			<value>张三</value>
+		</item>
+		 <!--为信用卡或者为工行、北京银行、上海银行借记卡核查时，不需要身份证号码-->
+		<item>
+			<name>documentNo</name>
+           <value></value>
+		</item>
+    <item>
+        <name>accountNo</name>          
+         <value>1111111111111111</value>
+    </item>
+    <!--支持17家银行的借记卡、信用卡核查，支持14家银行的存折核查,具体的银行列表单独给出-->
+    <item>
+        <name>openBankNo</name>
+        <value></value>
+    </item>				
+		<item>
+			<name>subreportIDs</name>
+			<value>14500</value>
+		</item>
+		<item>
+			<name>refID</name>			
+			<value>1</value>
+		</item>
+	</condition>
+</conditions>

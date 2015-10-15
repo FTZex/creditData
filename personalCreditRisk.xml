@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="GBK"?>
+<conditions>
+	<!-- 接口1查询条件：根据姓名证件号码查询个人风险信息。本文档所有内容均区分大小写 -->
+	<condition queryType="25136">
+		
+		<item>
+			<name>name</name>
+			<value>张三</value>
+		</item>
+		<item>
+			<name>documentNo</name>
+           		<value>430521199202176866</value>
+		</item>	
+		<item>
+			<name>subreportIDs</name>
+			<value>14200</value>
+		</item>
+		<item>
+			<name>refID</name>			
+			<value>引用ID，查询者提交的用于识别本次查询的流水号，系统返回结果中会原样包含该流水号。可以为空。</value>
+		</item>
+	</condition>
+</conditions>

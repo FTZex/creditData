@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="GBK"?>
+<conditions>
+	<!-- 每一个查询一个condition节点。本文档所有内容均区分大小写，请注意。 -->
+	<condition queryType="25176">
+		<!-- 查询个人银行卡交易信息，姓名、银行卡号、查询开始日期、查询结束日期都不能为空 -->
+		<item>
+			<name>name</name>
+			<value>张三</value>
+		</item>
+		<!--身份证号码选填-->
+		<item>
+			<name>documentNo</name>
+			<value></value>
+		</item>
+		<item>
+			<name>cardNos</name>
+			<value>1111111111111111</value>
+		</item>
+		<item>
+			<name>beginDate</name>
+			<value>2013-04</value>
+		</item>
+		<!--
+		     查询结束月份，不支持查询当天的交易数据,如果输入的月份大于等于当前月份，系统自动取当前日期的前一天。小于当前月份时，系统取查询月份的最后一天
+		     例如：查询开始月份为2014-01，结束月份为2015-01，系统会查询2014-01-01~2015-01-31的数据，查询周期为13个月。
+		-->
+		<item>
+			<name>endDate</name>
+			<value>2015-01</value>
+		</item>				
+		<item>
+			<name>subreportIDs</name>
+			<value>14503</value>
+		</item>
+		<item>
+			<name>refID</name>
+			<value>1</value>
+		</item>
+	</condition>
+</conditions>

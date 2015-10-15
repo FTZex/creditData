@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GBK"?>
+<conditions>
+	<!-- 个人和企业信息查询条件，每一个查询一个condition节点。本文档所有内容均区分大小写，请注意。 -->
+	<condition queryType="25129">
+		
+		
+                <!-- 如果查询电话反查信息，则电话号码不为空-->
+		<item>
+			<name>tel</name>
+			<value>%%%</value>
+		</item>
+
+		<item>
+			<name>subreportIDs</name>
+			<value>21603</value>
+		</item>
+		<item>
+			<name>refID</name>			
+			<value>1</value>
+		</item>
+	</condition>
+</conditions>
